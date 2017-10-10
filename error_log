@@ -1,0 +1,883 @@
+[27-Jul-2017 12:19:26 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/sitemap.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[27-Jul-2017 15:24:52 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[27-Jul-2017 17:07:15 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/points-table-2017.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[27-Jul-2017 20:43:16 America/Chicago] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 70
+[27-Jul-2017 20:43:16 America/Chicago] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/srikanth0598/livecricketinfo.com/functions.php on line 70
+[27-Jul-2017 20:43:16 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(67): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1724): get_balls('155', 1)
+#3 /home/srikanth0598/livecricketinfo.com/top-four-matches.php(52): get_match_remaining_balls('155', 1)
+#4 /home/srikanth0598/livecricketinfo.com/single-photo.php(2): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[27-Jul-2017 21:15:46 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[27-Jul-2017 22:49:03 America/Chicago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[27-Jul-2017 22:49:03 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(67): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1724): get_balls('152', 1)
+#3 /home/srikanth0598/livecricketinfo.com/top-four-matches.php(127): get_match_remaining_balls('152', 1)
+#4 /home/srikanth0598/livecricketinfo.com/single-video.php(8): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 01:08:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-player.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 01:09:48 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 02:49:27 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-player.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 03:08:50 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 03:12:29 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 03:14:33 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 07:07:24 America/Chicago] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 104
+[28-Jul-2017 07:07:24 America/Chicago] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/srikanth0598/livecricketinfo.com/functions.php on line 104
+[28-Jul-2017 07:07:24 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(90): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1678): get_match_nbs('153', 2)
+#3 /home/srikanth0598/livecricketinfo.com/top-four-matches.php(129): get_match_totals('153', 2)
+#4 /home/srikanth0598/livecricketinfo.com/single-player.php(20): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 07:10:07 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 07:29:12 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 07:38:00 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 07:38:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 07:39:02 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 08:23:11 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/videos.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 08:26:14 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/header.php(1): include('/home/srikanth0...')
+#4 /home/srikanth0598/livecricketinfo.com/single-commentray.php(2): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 08:44:39 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/index.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 09:23:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-series.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 10:25:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-player.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 10:29:10 America/Chicago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 10:29:10 America/Chicago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=8320 in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 10:29:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(1619): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(327): get_player_name('22')
+#3 /home/srikanth0598/livecricketinfo.com/single-commentray.php(175): get_over_commentry_listsss('64', '1548')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 10:46:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/index.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 11:02:19 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 11:02:19 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-player.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 11:21:57 America/Chicago] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 115
+[28-Jul-2017 11:21:57 America/Chicago] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/srikanth0598/livecricketinfo.com/functions.php on line 115
+[28-Jul-2017 11:21:57 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(67): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1684): get_balls('153', 2)
+#3 /home/srikanth0598/livecricketinfo.com/top-four-matches.php(175): get_match_overs('153', 2)
+#4 /home/srikanth0598/livecricketinfo.com/single-player.php(20): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 11:25:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-player.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[28-Jul-2017 12:55:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 12
+[28-Jul-2017 12:55:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 24
+[28-Jul-2017 16:51:02 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[28-Jul-2017 18:32:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 12
+[28-Jul-2017 18:32:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 24
+[28-Jul-2017 20:11:10 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 12
+[28-Jul-2017 20:11:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 24
+[28-Jul-2017 23:23:43 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[28-Jul-2017 23:28:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 01:19:42 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[29-Jul-2017 03:09:10 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[29-Jul-2017 03:20:30 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 04:47:17 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 04:48:33 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 06:44:36 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/points-table-2017.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[29-Jul-2017 09:25:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 12
+[29-Jul-2017 09:25:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 24
+[29-Jul-2017 10:23:45 America/Chicago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:23:45 America/Chicago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=3776 in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:23:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(67): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1821): get_balls('13', '2')
+#3 /home/srikanth0598/livecricketinfo.com/functions.php(1838): get_match_runrate_innings('13', '2')
+#4 /home/srikanth0598/livecricketinfo.com/functions.php(1872): last_wicket_runrate_section('13', '2')
+#5 /home/srikanth0598/livecricketinfo.com/header.php(1): include('/home/srikanth0...')
+#6 /home/srikanth0598/livecricketinfo.com/single-commentray.php(2): include('/home/srikanth0...')
+#7 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:23:47 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:23:48 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:23:50 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:23:52 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:23:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:23:55 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:23:57 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:23:58 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:00 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:02 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:03 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:05 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:07 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:08 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:12 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:13 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:15 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:17 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:18 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:21 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:23 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-series.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:25 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-series.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:26 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-series.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:28 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-series.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:30 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-series.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-series.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:33 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-series.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:35 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:36 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:38 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:40 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:41 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:43 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:46 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:48 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/header.php(1): include('/home/srikanth0...')
+#4 /home/srikanth0598/livecricketinfo.com/single-commentray.php(2): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:50 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/header.php(1): include('/home/srikanth0...')
+#4 /home/srikanth0598/livecricketinfo.com/single-commentray.php(2): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:51 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:54 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/index.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:56 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:58 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/latest-news.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:24:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/latest-news.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:25:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/latest-news.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:25:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(79): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1679): get_match_wides('155', 2)
+#3 /home/srikanth0598/livecricketinfo.com/top-four-matches.php(60): get_match_totals('155', 2)
+#4 /home/srikanth0598/livecricketinfo.com/latest-news.php(20): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 10:25:11 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 12:02:18 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[29-Jul-2017 13:58:36 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-player.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 13:58:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 13:58:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 14:42:12 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 21:30:44 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 21:31:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/header.php(1): include('/home/srikanth0...')
+#4 /home/srikanth0598/livecricketinfo.com/single-commentray.php(2): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 22:54:06 America/Chicago] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 115
+[29-Jul-2017 22:54:06 America/Chicago] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/srikanth0598/livecricketinfo.com/functions.php on line 115
+[29-Jul-2017 22:54:06 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(67): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1684): get_balls('154', 1)
+#3 /home/srikanth0598/livecricketinfo.com/top-four-matches.php(52): get_match_overs('154', 1)
+#4 /home/srikanth0598/livecricketinfo.com/header.php(25): include('/home/srikanth0...')
+#5 /home/srikanth0598/livecricketinfo.com/single-commentray.php(2): include('/home/srikanth0...')
+#6 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[29-Jul-2017 23:38:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 12
+[29-Jul-2017 23:38:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 24
+[30-Jul-2017 01:36:33 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[30-Jul-2017 01:37:21 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/points-table-2017.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[30-Jul-2017 01:52:00 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-video.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[30-Jul-2017 01:52:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[30-Jul-2017 03:18:07 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[30-Jul-2017 04:29:53 America/Chicago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[30-Jul-2017 04:29:53 America/Chicago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=14076 in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[30-Jul-2017 04:29:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(67): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1684): get_balls('155', 2)
+#3 /home/srikanth0598/livecricketinfo.com/top-four-matches.php(130): get_match_overs('155', 2)
+#4 /home/srikanth0598/livecricketinfo.com/single-photo.php(2): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[30-Jul-2017 09:41:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 12
+[30-Jul-2017 09:41:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 24
+[30-Jul-2017 09:41:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 12
+[30-Jul-2017 09:41:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 24
+[30-Jul-2017 19:00:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 12
+[30-Jul-2017 19:00:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 24
+[30-Jul-2017 21:26:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 12
+[30-Jul-2017 21:26:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 24
+[30-Jul-2017 21:39:16 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[30-Jul-2017 22:34:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-photo.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[31-Jul-2017 01:59:02 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-scorecard.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[31-Jul-2017 02:07:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[31-Jul-2017 04:34:04 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[31-Jul-2017 04:36:30 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/index.php(1): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[31-Jul-2017 07:31:43 America/Chicago] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 337
+[31-Jul-2017 07:31:43 America/Chicago] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/srikanth0598/livecricketinfo.com/functions.php on line 337
+[31-Jul-2017 07:31:43 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(1429): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1380): get_recent_match_count('16')
+#3 /home/srikanth0598/livecricketinfo.com/functions.php(1871): get_recent_ball_score('16')
+#4 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[31-Jul-2017 07:31:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-post.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[31-Jul-2017 09:50:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/single-player.php(2): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[31-Jul-2017 11:57:39 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(674): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1844): get_all_series()
+#3 /home/srikanth0598/livecricketinfo.com/header.php(1): include('/home/srikanth0...')
+#4 /home/srikanth0598/livecricketinfo.com/single-commentray.php(2): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[31-Jul-2017 13:23:02 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/points-table-2017.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[31-Jul-2017 13:33:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 12
+[31-Jul-2017 13:33:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/srikanth0598/livecricketinfo.com/sitemap.php on line 24
+[31-Jul-2017 15:27:11 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[01-Aug-2017 00:23:17 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/all-matches.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[01-Aug-2017 02:08:24 America/Chicago] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 23
+[01-Aug-2017 02:08:24 America/Chicago] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/srikanth0598/livecricketinfo.com/functions.php on line 23
+[01-Aug-2017 02:08:24 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(101): connection()
+#2 /home/srikanth0598/livecricketinfo.com/functions.php(1677): get_match_legbs('129', '2')
+#3 /home/srikanth0598/livecricketinfo.com/functions.php(1863): get_match_totals('129', '2')
+#4 /home/srikanth0598/livecricketinfo.com/single.php(1): include('/home/srikanth0...')
+#5 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9
+[01-Aug-2017 03:31:07 America/Chicago] PHP Warning:  Missing argument 1 for get_all_posts(), called in /home/srikanth0598/livecricketinfo.com/points-table-2017.php on line 13 and defined in /home/srikanth0598/livecricketinfo.com/functions.php on line 445
+[01-Aug-2017 05:26:04 America/Chicago] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/srikanth0598/livecricketinfo.com/functions.php on line 70
+[01-Aug-2017 05:26:04 America/Chicago] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/srikanth0598/livecricketinfo.com/functions.php on line 70
+[01-Aug-2017 05:26:04 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /home/srikanth0598/livecricketinfo.com/functions.php:9
+Stack trace:
+#0 /home/srikanth0598/livecricketinfo.com/functions.php(9): PDO->__construct('mysql:host=loca...', 'kallemvideos', 'K@sreekanth8')
+#1 /home/srikanth0598/livecricketinfo.com/functions.php(112): connection()
+#2 /home/srikanth0598/livecricketinfo.com/top-four-matches.php(128): get_wickets('153', 1)
+#3 /home/srikanth0598/livecricketinfo.com/single-player.php(20): include('/home/srikanth0...')
+#4 {main}
+  thrown in /home/srikanth0598/livecricketinfo.com/functions.php on line 9

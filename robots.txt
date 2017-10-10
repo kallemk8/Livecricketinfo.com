@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.livecricketinfo.com/sitemap.xml.gz
+Sitemap: http://www.livecricketinfo.com/sitemap.xml.gz.gz

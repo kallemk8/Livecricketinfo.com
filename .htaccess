@@ -1,0 +1,36 @@
+
+RewriteEngine On    # Turn on the rewriting engine
+ 
+RewriteRule    ^([0-9a-zA-Z_-]+)/([0-9]+)    single.php?url=$1&postid=$2 
+RewriteRule    ^news/([0-9a-zA-Z_-]+)/([0-9]+)    contentsingle.php?url=$1&postid=$2 
+RewriteRule    ^cricket-series/([0-9a-zA-Z_-]+)/([0-9]+)    single-series.php?url=$1&postid=$2 
+RewriteRule    ^cricket-videos/([0-9a-zA-Z_-]+)/([0-9]+)    single-video.php?url=$1&postid=$2 
+RewriteRule    ^cricket-photos/([0-9a-zA-Z_-]+)/([0-9]+)    single-photo.php?url=$1&postid=$2&photonum=$3 
+RewriteRule    ^cricket-news/([0-9a-zA-Z_-]+)/([0-9]+)    single-post.php?url=$1&postid=$2 
+RewriteRule    ^full-score/([0-9a-zA-Z_-]+)/([0-9]+)    single-scorecard.php?url=$1&postid=$2
+RewriteRule    ^full-commentary/([0-9a-zA-Z_-]+)/([0-9]+)    single-commentray.php?url=$1&postid=$2
+RewriteRule    ^player/([0-9a-zA-Z_-]+)/([0-9]+)    single-player.php?url=$1&postid=$2
+ 
+
+RewriteRule    ^category/([0-9a-zA-Z_-]+)/([0-9]+)    category.php?catname=$1&postid=$2  
+RewriteRule    ^photos    photos.php
+RewriteRule    ^videos    videos.php
+RewriteRule    ^teams    teams.php
+RewriteRule    ^latest-news    latest-news.php
+RewriteRule    ^match-results    all-matches.php
+  
+RewriteRule    ^series    series.php
+RewriteRule    ^schedule    schedule.php
+RewriteRule    ^rankings    ratings.php
+RewriteRule    ^ipl2017    ipl2017.php
+RewriteRule    ^home    index.php
+RewriteRule    ^IPL2017/sunrisers-hyderabad-team-squad-2017    sunrisers-hyderabad-team-squad-2017.php
+RewriteRule    ^IPL2017/points-table-2017    points-table-2017.php
+RewriteRule    ^IPL2017/royal-challengers-bangalore-team-squad-2017    royal-challengers-bangalore-team-squad-2017.php
+RewriteRule    ^IPL2017/mumbai-indians-team-squad-2017    mumbai-indians-team-squad-2017.php
+RewriteRule    ^IPL2017/kolkata-knight-riders-team-squad-2017    kolkata-knight-riders-team-squad-2017.php
+RewriteRule    ^IPL2017/rising-pune-supergiants-team-squad-2017    rising-pune-supergiants-team-squad-2017.php
+RewriteRule    ^IPL2017/delhi-daredevils-team-squad-2017    delhi-daredevils-team-squad-2017.php
+RewriteRule    ^IPL2017/kings-xi-punjab-team-squad-2017    kings-xi-punjab-team-squad-2017.php
+RewriteRule    ^IPL2017/gujarat-lions-team-squad-2017    gujarat-lions-team-squad-2017.php
+RewriteRule    ^gallery/([0-9a-zA-Z_-]+)    gallery-single.php?gallery=$1
