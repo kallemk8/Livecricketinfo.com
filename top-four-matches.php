@@ -1,6 +1,6 @@
 <header><div class="container"><div class="header"><div class="col-md-3 col-sm-6"><h1 class="logo"><img src="http://www.livecricketinfo.com/images/logo.png" width="40px"><a href="http://www.livecricketinfo.com/" title="Watch Live cricket score and Live Cricket Streaming">Livecricketinfo</a></h1></div><div class="col-md-9 col-sm-6"><div class="menu"><div class="mobile-menu-icon"><a href="#"><i class="fa fa-align-justify" aria-hidden="true"></i></a></div><ul class="comman-menu"><li><a href="http://www.livecricketinfo.com/match-results">Live Scores</a></li><li><a href="http://www.livecricketinfo.com/schedule">Schedule</a></li><li><a href="http://www.livecricketinfo.com/latest-news">News</a></li><li><a href="http://www.livecricketinfo.com/series">Series</a></li><li><a href="http://www.livecricketinfo.com/teams">Teams</a></li><li><a href="http://www.livecricketinfo.com/videos">Videos</a></li><li><a href="http://www.livecricketinfo.com/photos">Photos</a></li><li><a href="http://www.livecricketinfo.com/rankings">Rankings</a></li></ul></div></div></div>
 		<div class="live-match-list onlymobile">
-			<?php $fourmatchs = get_recent_4matches('2'); ?>
+			<?php $fourmatchs = get_recent_4matches('2'); print_r($fourmatchs); ?>
 			<?php foreach($fourmatchs as $four): 
 				$grand_total12 = get_match_totals($four['ID'], 1); 
 				$overs12 = get_match_overs($four['ID'], 1);

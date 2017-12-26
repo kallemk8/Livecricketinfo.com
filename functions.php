@@ -1,12 +1,13 @@
 <?php 
-	if($_GET['postid']){
+	if(isset($_GET['postid'])){
 		$postid = $_GET['postid'];
 	}else{
 		$postid = "0";
 	}
-
+	global $data;
 	function connection(){
-	    $conn = new PDO("mysql:host=localhost;dbname=srikanth_livecricketinfo","kallemvideos",'K@sreekanth8' );
+
+	    $conn = new PDO("mysql:host=localhost;dbname=livecricketinfo","root",'' );
     return $conn;
 	}
 	function site_url(){
@@ -530,6 +531,7 @@
 		$sql = "SELECT match_type FROM livematchscore where ID = $postid";
 		$res = $conn->prepare($sql);
 		$res->execute();
+		$data ='';
 		while($row = $res->fetch()) {
 			$data = $row['match_type'];
 	  	}
@@ -541,7 +543,7 @@
 
 		$res = $conn->prepare($sql);
 			$res->execute();
-		
+		$data ='';
 		while($row = $res->fetch()) {
 			$data = $row['match_content'];
 	  	}
@@ -553,7 +555,7 @@
 
 		$res = $conn->prepare($sql);
 			$res->execute();
-		
+		$data ='';
 		while($row = $res->fetch()) {
 			$data = $row['man_of_the_series'];
 	  	}
@@ -564,6 +566,7 @@
 		$sql = "SELECT man_of_the_match FROM livematchscore where ID = $postid";
 		$res = $conn->prepare($sql);
 		$res->execute();
+		$data ='';
 		while($row = $res->fetch()) {
 			$data = $row['man_of_the_match'];
 	  	}
@@ -599,7 +602,7 @@
 
 		$res = $conn->prepare($sql);
 			$res->execute();
-		
+		$data ='';
 		while($row = $res->fetch()) {
 			$data = $row['toss'];
 	  	}
@@ -611,7 +614,7 @@
 
 		$res = $conn->prepare($sql);
 			$res->execute();
-		
+		$data ='';
 		while($row = $res->fetch()) {
 			$data = $row['match_status'];
 	  	}
@@ -622,6 +625,7 @@
 		$sql = "SELECT match_series FROM livematchscore where ID = $postid";
 		$res = $conn->prepare($sql);
 		$res->execute();
+		$data ='';
 		while($row = $res->fetch()) {
 			$data = $row['match_series'];
 	  	}
@@ -653,6 +657,7 @@
 		$sql = "SELECT result FROM livematchscore where ID = $postid";
 		$res = $conn->prepare($sql);
 			$res->execute();
+			$data ='';
 		while($row = $res->fetch()) {
 			$data = $row['result'];
 	  	}
@@ -854,6 +859,7 @@
 		$sql = "SELECT * FROM matchbatsman where  match_id = $match_id and innings = $inning and Playstatus =1";
 		$res = $conn->prepare($sql);
 		$res->execute();
+		$data ="";
 		while($row = $res->fetch()) {
 			$batsmanruns = 0+get_batsman_runs($match_id,$inning,$row['batsmanid']);
 			$playerurl = get_single_playerurl($row['batsmanid']);
@@ -995,6 +1001,7 @@
 		$sql = "SELECT * FROM matchbowlers where  match_id = $match_id and inning = $innings and playstatus=1";
 		$res = $conn->prepare($sql);
 			$res->execute();
+			$data ="";
 		while($row = $res->fetch()) {
 			$bowlerovers = 0+get_bowler_overs_withballs($match_id,$innings,$row['bowlerid']);
 			$bowlerruns = 0+get_bowler_runs($match_id,$innings,$row['bowlerid']);
