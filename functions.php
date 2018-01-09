@@ -7,7 +7,7 @@
 	global $data;
 	function connection(){
 
-	    $conn = new PDO("mysql:host=localhost;dbname=livecricketinfo","root",'' );
+	    $conn = new PDO("mysql:host=localhost;dbname=livecricketinfo","livecricketinfo",'M@gopi8Kallem' );
     return $conn;
 	}
 	function site_url(){
